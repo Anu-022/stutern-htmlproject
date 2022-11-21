@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    font:15px/1.5 Arial Helvetica sans-serif;
+} 
+    
+    #navbar {
+    width: 100%;
+    height: 60px;
+    background:#fff;
+    padding: 12px 10px;
+    position: fixed;
+    top: 0;
+    left:0;
+    }
+     
+    ul {
+    margin:0;
+    padding: 0;
+    }
+    #navbar li {
+    display: inline;
+    list-style: none;
+    float: right;
+    padding:10px 20px 0 20px;
+    }
+    
+    #navbar a{
+    text-transform: uppercase;
+    font:  16px;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    #welcome-section {
+    background: yellow;
+    color: blue;
+    width: 100%;
+    height: 100vh;
+    font-size: 35px;
+    margin-top: 60px;
+    }
+    .welcome-section-details {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-left: 40px;
+      margin-right: 60px;
+      padding-top: 60px;
+    }
+    .welcome-section-text{
+      line-height: 25px;
+    }
+    .welcome-section-image {
+      width: 300px;
+      height: 300px;
+      
+    }
+    .welcome-section-image img {
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     border:  8px solid blue;
+     padding: 5px;
+    }
+    h1 {
+    
+    font-size:40px;
+    font-weight: normal;
+    }
+    h2 {
+    margin-top: 0;
+    padding-top: 50px;
+    }
+    #welcome-section p {
+    margin-top: 5px;
+    padding: 0;
+    }
+    .highlight {
+    color: red;
+    font-weight: bold;
+    }
+    #about-section {
+    text-align: center;
+    padding: 10px 20px;
+    }
+    
+    #project-link {
+    font-size: 15px;
+    border: 2px blue solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    }
+    .project-btn li {
+        list-style-type: none;
+    }
+    #about-section {
+    width:100%;
+    height: 100vh;
+    background:black;
+    color: yellow;
+    }
+    #about-section p {
+      width: 400px;
+      margin: auto;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    #contacts {
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    padding: 10px 20px;
+    }
+    #profile-container {
+      background-color: red;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    #profile-container li {
+    list-style: none;
+    padding-top: 60px;
+      }
+    #profile-container a {
+      text-decoration: none;
+      color: #fff;
+    } 
+    #caption {
+     background-color: blue;
+      border: 5px solid blue;
+      border-radius: 5px;
+      width: 200px;
+      color: #fff;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    #footer-div {
+      background-color: blue;
+      color: #fff;
+      text-align: center;
+      height: 50px;
+      font-size: 20px;
+    }
+      
